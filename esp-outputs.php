@@ -71,26 +71,7 @@
                 window.location.reload(true);
             }
         }
-
-        // function createOutput(element) {
-        //     var xhr = new XMLHttpRequest();
-        //     xhr.open("POST", "esp-outputs-action.php", true);
-
-        //     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-        //     xhr.onreadystatechange = function() {
-        //         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-        //             alert("Output created");
-        //             window.location.reload(true); 
-        //         }
-        //     }
-        //     var outputName = document.getElementById("outputName").value;
-        //     var outputBoard = document.getElementById("outputBoard").value;
-        //     var outputGpio = document.getElementById("outputGpio").value;
-        //     var outputState = document.getElementById("outputState").value;
-        //     var httpRequestData = "action=output_create&name="+outputName+"&board="+outputBoard+"&gpio="+outputGpio+"&state="+outputState;
-        //     xhr.send(httpRequestData);
-        // }
+        
     </script>
 </body>
 </html>
